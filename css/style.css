@@ -27,7 +27,7 @@ img{
 }
 h1{
     font-size: 50px;
-    
+    font-weight: 700;
 }
 h2{
     font-size: 35px;
@@ -110,3 +110,41 @@ font-weight: 600;
 }
 
 /* header css end here  */
+
+/* carousel start here */
+.carousel-item{
+    position: relative;
+}
+.carousel-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.carousel-content h1{
+    color: #F5F7FA;
+    letter-spacing: 2px;
+}
+.carousel-content p{
+    color: var(--font-color);
+    padding-bottom: 65px;
+}
+.carousel-content a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #00bc9c;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    
+}
+.carousel-content a:hover{
+    background-color: transparent;
+    border: 1px solid #00BC9C;
+    color: var(--hover-color);
+}
+/* carousel end here */
