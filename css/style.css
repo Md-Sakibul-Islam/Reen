@@ -237,3 +237,40 @@ background-color: #ffff;
     
 }
 /* work section css end here  */
+
+/* work us css start here  */
+.work-us-content{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.work-us-content h2{
+    color: var(--heading-color);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.work-us-content p{
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: var(--font-color);
+}
+.work-us-content a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #00bc9c;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.work-us-content a:hover{
+    background-color: transparent;
+    border: 1px solid #00BC9C;
+    color: var(--hover-color);
+}
+/* work us css end here  */
