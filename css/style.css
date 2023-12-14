@@ -1,0 +1,93 @@
+:root{
+    --font-color:#73879c;
+    --heading-color:#506A8D;
+    --primary-background-color:#F5F7FA;
+    --font-text: 'Source Sans 3', sans-serif;
+    --icon-color:#506a85;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size:20px ;
+}
+h4{
+    font-size: 18px;
+}
+h1,h2,h3,h4{
+    font-family: var(--font-text);
+}
+body{
+    font-family: var(--font-text);
+}
+
+/* header top css start here  */
+.header-top{
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--primary-background-color);
+}
+.header-top-left{
+display: flex;
+gap: 16px;
+align-items: center;
+}
+.header-top-left a{
+color: var(--font-color);
+font-family: var(--font-text);
+font-weight: 600;
+}
+.header-top-left i{
+    padding-right: 6px;
+    color: var(--icon-color);
+}
+
+.phone-left i{
+    font-size: 11px;
+}
+.header-top-right{
+
+}
+ .social-icon{
+    text-align: end;
+
+
+}
+ .social-icon li {
+    display: inline-block;
+}
+.social-icon li a {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 6px;
+    color: var(--icon-color);
+    transition: all 0.3s;
+}
+.social-icon li a:hover{
+    color: #00BC9C;
+}
+
+/* header top css end here  */
