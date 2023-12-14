@@ -172,6 +172,7 @@ background-color: #ffff;
 .card-item{
     display: flex;
     gap: 12px;
+    padding-bottom: 100px;
     
 }
 .card-item img{
@@ -189,3 +190,50 @@ background-color: #ffff;
     color: var(--font-color);
 }
 /* code section css end here  */
+
+
+/* work section css start here  */
+.work{
+  
+    background: var(--primary-background-color);
+    padding-bottom: 95px;
+}
+.work-content{
+    padding-top: 88px;
+    padding-bottom: 65px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.work-content h2{
+    
+    color: var(--heading-color);
+    font-weight: 600;
+}
+.work-content p{
+    font-size: 16px;
+    color: var(--font-color);
+}
+.work-card{
+    background-color: #ffff;
+    text-align: center;
+   
+}
+.work-card img{
+    width: 100%;
+}
+.work-card h3{
+    font-weight: 600;
+    color: var(--heading-color);
+    padding-top: 30px;
+}
+.work-card p{
+    padding-bottom: 25px;
+    color:var(--font-color);
+}
+
+.over-card img{
+    width: 100%;
+    
+}
+/* work section css end here  */
