@@ -1,6 +1,7 @@
 :root{
     --font-color:#73879c;
     --heading-color:#506A8D;
+    --hover-color:#00BC9C;
     --primary-background-color:#F5F7FA;
     --font-text: 'Source Sans 3', sans-serif;
     --icon-color:#506a85;
@@ -68,9 +69,7 @@ font-weight: 600;
 .phone-left i{
     font-size: 11px;
 }
-.header-top-right{
 
-}
  .social-icon{
     text-align: end;
 
@@ -87,7 +86,27 @@ font-weight: 600;
     transition: all 0.3s;
 }
 .social-icon li a:hover{
-    color: #00BC9C;
+    color: var(--hover-color);
 }
 
 /* header top css end here  */
+
+/* header css start here  */
+.header{
+    padding: 20px 0;
+}
+
+.header .navbar-nav li .nav-link{
+    padding: 0 17px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header .navbar-nav li .nav-link:hover{
+    color: var(--hover-color);
+}
+.header .navbar-nav li a:active{
+    color: var(--hover-color);
+}
+
+/* header css end here  */
