@@ -148,3 +148,44 @@ font-weight: 600;
     color: var(--hover-color);
 }
 /* carousel end here */
+
+/* code section css start here  */
+.code {
+background-color: #ffff;
+}
+.code-content{
+    padding-top: 88px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 65px;
+}
+.code-content h2{
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+.code-content p{
+    font-size: 16px;
+    color: var(--font-color);
+}
+.card-item{
+    display: flex;
+    gap: 12px;
+    
+}
+.card-item img{
+  width: 61px;
+  height: 53px;
+}
+
+.card-content h3{
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: var(--heading-color);
+}
+.card-content p{
+    font-size: 14x;
+    color: var(--font-color);
+}
+/* code section css end here  */
