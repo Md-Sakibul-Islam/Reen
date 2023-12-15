@@ -274,3 +274,131 @@ background-color: #ffff;
     color: var(--hover-color);
 }
 /* work us css end here  */
+
+.footer{
+    padding: 80px 0;
+    background-color:#2f4052; 
+}
+.we-content h3{
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffff;
+    padding-bottom: 18px;
+}
+.we-content img{
+    padding-bottom: 18px;
+}
+.we-content p{
+    font-size: 14px;
+    color: #a3b1bf;
+}
+.works img {
+    padding: 0 8px;
+}
+.foot-img img{
+    width: 50%;
+}
+.foot-img{
+    display: flex;
+    gap: 8px;
+}
+.latest-works h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffff;
+    padding-bottom: 18px;
+
+}
+
+.get-in h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffff;
+    padding-bottom: 18px;
+}
+
+.get-in p{
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+.address li {
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+.address li i {
+padding-right: 8px;
+font-size: 11px;
+}
+
+.update h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffff;
+    padding-bottom: 18px;
+}
+
+.update p {
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+.update a {
+    position: absolute;
+    bottom:4px;
+    right: 2px;
+    background-color: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #00bc9c;
+    display: inline-block;
+    padding: 5px 15px ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.update form{
+    position: relative;
+}
+.update .form-control {
+    background-color: #4e5c6c;
+    color: #828e99;
+    padding: 10px;
+    border: none;
+}
+.update form ::placeholder{
+    font-size: 13px;
+}
+
+.footer-bottom{
+    background-color: #283645;
+    height: 70px;
+   
+}
+
+.footer-left{
+padding-top: 25px;
+}
+.footer-right{
+    padding-top: 25px;
+}
+
+.menu-footer li{
+    color: #616f7d;
+    display: inline-block;
+    padding: 0 9px;
+}
+.footer-left p{
+    font-size: 14px;
+    color: #616f7d;
+
+}
+.menu-footer li i{
+    font-size: 5px;
+    padding-right: 16px;
+}
